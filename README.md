@@ -97,6 +97,9 @@ MainTree
 - Robot automatically selects waypoints and starts moving
 - You can observe navigation behavior in RViz
 
+![WhatsApp Image 2025-03-26 at 22 36 59_d8cdc8aa](https://github.com/user-attachments/assets/ef36e893-631a-4cd8-a15e-2161d100d2e3)
+
+
 To manually run just the BT engine:
 
 ```bash
