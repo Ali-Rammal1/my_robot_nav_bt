@@ -74,6 +74,7 @@ MainTree
      │   └── WaitForRecharge
      └── NavigateToWaypoint
 ```
+![Behavior Tree](readme_images/Behavior_Tree.png)
 
 - `BatteryMonitor`: checks if 4 tasks are done
 - `NavigateToWaypoint`: picks a random coordinate
@@ -85,6 +86,8 @@ MainTree
 ## Charging Station
 
 - Location: **x = -0.31, y = 2.29**
+  
+![Charging Dock](readme_images/Charging_Dock.png)
 
 ---
 
