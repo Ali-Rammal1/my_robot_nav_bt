@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_robot_nav_bt</name>
+  <version>0.0.0</version>
+  <description>Navigation with NAV2 and Behavior Trees project</description>
+  <maintainer email="alirammal2004@gmail.com">ali</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>nav2_behavior_tree</depend>
+  <depend>behaviortree_cpp_v3</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nav2_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

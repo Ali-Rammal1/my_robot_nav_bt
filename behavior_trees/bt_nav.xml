@@ -1,0 +1,12 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Fallback name="BatteryCheck">
+      <Sequence name="GoCharge">
+        <BatteryMonitor name="CheckBattery"/>
+        <NavigateToCharger name="GoToChargingStation"/>
+        <WaitForRecharge name="Recharge"/>
+      </Sequence>
+      <NavigateToWaypoint name="GoToRandomWaypoint"/>
+    </Fallback>
+  </BehaviorTree>
+</root>

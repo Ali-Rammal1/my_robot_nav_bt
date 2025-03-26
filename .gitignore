@@ -1,0 +1,14 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+
+# VSCode
+.vscode/
+
+# Mac/Linux system files
+.DS_Store
+

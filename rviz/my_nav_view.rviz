@@ -1,0 +1,23 @@
+Panels:
+- Class: "rviz_common/Displays"
+  Name: "Displays"
+Visualization Manager:
+  Class: "rviz_common/VisualizationManager"
+  Displays:
+  - Name: "Grid"
+    Class: "rviz_default_plugins/Grid"
+    Enabled: true
+    Cell Size: 1.0
+    Color: [160, 160, 160]
+  - Name: "Map"
+    Class: "rviz_default_plugins/Map"
+    Enabled: true
+    Topic: "/map"
+  - Name: "TF"
+    Class: "rviz_default_plugins/TF"
+    Enabled: true
+  - Name: "RobotModel"
+    Class: "rviz_default_plugins/RobotModel"
+    Enabled: true
+    Robot Description: "robot_description"
+  Fixed Frame: "map"
