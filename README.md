@@ -86,7 +86,7 @@ MainTree
 ## Charging Station
 
 - Location: **x = -0.31, y = 2.29, z=0.0**
-- 
+  
 After successfully completing 4 navigation tasks, the robot returns to the charging station and waits for 30 seconds to simulate recharging.
 
 ![Charging Dock](readme_images/Charging_Dock.png)
