@@ -118,7 +118,7 @@ ros2 run my_robot_nav_bt bt_runner
 
 ---
 
-## Demo Video
+## Demo Video (Click to watch on Youtube)
 
 
 [![Watch the demo](https://img.youtube.com/vi/GCAoX1ebGJ0/hqdefault.jpg)](https://youtu.be/GCAoX1ebGJ0)
@@ -127,12 +127,13 @@ ros2 run my_robot_nav_bt bt_runner
 
 | Timestamp | Event                              |
 |-----------|------------------------------------|
-| `00:12`   | ✅ First navigation goal           |
-| `00:35`   | ✅ Second navigation goal          |
-| `00:58`   | ✅ Third navigation goal           |
-| `01:21`   | ✅ Fourth navigation goal          |
-| `01:45`   | ⚡ Robot navigates to charging dock |
-| `02:15`   | 🔁 Resumes navigation after recharge |
+| `00:03`   | ✅ First navigation goal           |
+| `00:18`   | ✅ Second navigation goal          |
+| `00:31`   | ✅ Third navigation goal           |
+| `0:45`   | ✅ Fourth navigation goal          |
+| `01:00`   |  Robot navigates to charging dock |
+| `1:48`   |  Resumes navigation after recharge |
+Then the cycle continues
 
 > The robot uses Behavior Trees to autonomously alternate between navigation and recharging based on task count and battery simulation logic.
 
