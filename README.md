@@ -118,9 +118,9 @@ ros2 run my_robot_nav_bt bt_runner
 
 ---
 
-## 📹 Demo Video
+## Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/GCAoX1ebGJ0))
 
 ### Timeline Highlights
 
